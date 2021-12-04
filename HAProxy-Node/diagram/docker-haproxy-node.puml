@@ -44,11 +44,11 @@ nwdiag {
   network host {
     description = "Host"
     width = full
-    haproxy [description="  <$reverse_proxy>\nHAProxy" address = ":5080 proxy, :5081 stats"]
+    haproxy [description=" <$reverse_proxy>\nHAProxy" address = ":5080 proxy, :5081 stats"]
   }
 
   network backend {
-    description = "backend"
+    description = ""
     width = full
     haproxy
     node1 [description="    <$application_server>\nNode Server"]
