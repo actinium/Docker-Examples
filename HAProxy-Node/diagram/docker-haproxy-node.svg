@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="413px" preserveAspectRatio="none" style="width:673px;height:413px;background:#FFFFFF;" version="1.1" viewBox="0 0 673 413" width="673px" zoomAndPan="magnify"><defs/><g><text fill="#1F2937" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="26" x="29" y="16.6016">Host</text><text fill="#1F2937" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="50" x="5" y="227.6211">backend</text><rect fill="#DBEAFE" height="306.6855" style="stroke:#DBEAFE;stroke-width:1.0;" width="585" x="70" y="52.5215"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="75" y="66.0566">Docker</text><rect fill="#E5E7EB" height="5" style="stroke:#6B7280;stroke-width:1.0;" width="605" x="60" y="9.5664"/><rect fill="#E5E7EB" height="5" style="stroke:#6B7280;stroke-width:1.0;" width="605" x="60" y="220.5859"/><path d="M122.5,14.5664 L122.5,74.0098 " fill="none" style="stroke:#6B7280;stroke-width:1.0;"/><text fill="#B91C1C" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="66" x="89.5" y="31.2236">:5080 proxy</text><text fill="#B91C1C" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="60" x="89.5" y="44.1787">:5081 stats</text><path d="M122.5,156.1426 L122.5,220.5859 " fill="none" style="stroke:#6B7280;stroke-width:1.0;"/><path d="M118.5,225.5859 L118.5,272.0742 " fill="none" style="stroke:#6B7280;stroke-width:1.0;"/><path d="M239.5,225.5859 L239.5,272.0742 " fill="none" style="stroke:#6B7280;stroke-width:1.0;"/><path d="M360.5,225.5859 L360.5,272.0742 " fill="none" style="stroke:#6B7280;stroke-width:1.0;"/><path d="M481.5,225.5859 L481.5,272.0742 " fill="none" style="stroke:#6B7280;stroke-width:1.0;"/><path d="M602.5,225.5859 L602.5,272.0742 " fill="none" style="stroke:#6B7280;stroke-width:1.0;"/><rect fill="#FFFFFF" height="82.1328" style="stroke:#6B7280;stroke-width:1.0;" width="69" x="86" y="74.0098"/><text fill="#111827" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="0" x="104" y="129.4785"/><image height="48" width="38" x="104" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAwCAIAAADy0J9/AAABgElEQVR4Xu2XsU7EMAyG71UzMCMGViQkRgYGNhYkJjZ0y62IgfmQeAAQL3A8Qe4X7rlxk3Njl3aA/PqnXOKviX1uuoqLazUcmF898ub2LpycOnx5db3bfScxR9Qh3Tx2PbVD5iGs3r69y8hH1ZAmT0JWLka9OFbFIvJpvfn4/Bo1GL+G9LkhpRrS5IaUakiT/y4S1xe8T8gyrCY/EjwZqlZO5Nn5BS28f3ikEbzy+qiqPEjcImmVgxcdSN4fMDQCcB+vQjYkeFQpzDPtj2RAMu/55TX/9ZgxWQBNSC5R09V+EjIc0oa9ooJoBHicrWJczATQigxJ8nDONGLqA9GBDAcqSETlHFeqgEQInJtuYjA1yL1ysvNExiKyvkHHH2qxx3KXyKkFJGZjnu6ax+K9DiYXkDXmnqeLCzut20nIrfwsUYyUM3UhZEiOt4Ck/++oaWE+zgaDDzYtogKypjRqxK1/ULQFpM+DB1VeNbMgFV6cCanrXyG5Vbotw2rqkEtqDxz2AXqX9QrMAAAAAElFTkSuQmCC" y="84.0098"/><text fill="#111827" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="49" x="96" y="143.6113">HAProxy</text><rect fill="#FFFFFF" height="82.1328" style="stroke:#6B7280;stroke-width:1.0;" width="91" x="75" y="272.0742"/><text fill="#111827" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="0" x="101" y="327.543"/><image height="48" width="40" x="101" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAwCAIAAADsGa/MAAABLUlEQVR4Xu2XsQrCQAyG+6odnMXBVRAcHTq4uQhObuLiKg7OCj6A4gvUJ6ihV46mudYk9CpCPn5E016+9lpqLyl+RNIsDEUlfjxf88UyHY2lmUxn19sd92RRiXVWF3DjniwqMW0nCu7JwsQQuNE46V+Md2hFMaROQKwI7snCxLrgnixMrAvuycLEuuCeLEysC+7JwsS64J4s/kS8Pxzz/E2De7IQiHUv7m0IxEW54KB1aaCJQOyWCzDVdFNHYJJO54sbm5aHDt+hEl0MKyO3ONpsd/6zVZyt1jQwxovpVn66xK4SBMRwBs2qhK6ppoeZ1c44ojgYf41NLKRLjHbExBXTR7F/IMcVBzPEVAdjYi1NMfz4miKGmMnPxDCGXgVpNGLA/ber49+fxOK++ABgJ88csQEzVwAAAABJRU5ErkJggg==" y="282.0742"/><text fill="#111827" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="71" x="85" y="341.6758">Node Server</text><rect fill="#FFFFFF" height="82.1328" style="stroke:#6B7280;stroke-width:1.0;" width="91" x="196" y="272.0742"/><text fill="#111827" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="0" x="222" y="327.543"/><image height="48" width="40" x="222" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAwCAIAAADsGa/MAAABLUlEQVR4Xu2XsQrCQAyG+6odnMXBVRAcHTq4uQhObuLiKg7OCj6A4gvUJ6ihV46mudYk9CpCPn5E016+9lpqLyl+RNIsDEUlfjxf88UyHY2lmUxn19sd92RRiXVWF3DjniwqMW0nCu7JwsQQuNE46V+Md2hFMaROQKwI7snCxLrgnixMrAvuycLEuuCeLEysC+7JwsS64J4s/kS8Pxzz/E2De7IQiHUv7m0IxEW54KB1aaCJQOyWCzDVdFNHYJJO54sbm5aHDt+hEl0MKyO3ONpsd/6zVZyt1jQwxovpVn66xK4SBMRwBs2qhK6ppoeZ1c44ojgYf41NLKRLjHbExBXTR7F/IMcVBzPEVAdjYi1NMfz4miKGmMnPxDCGXgVpNGLA/ber49+fxOK++ABgJ88csQEzVwAAAABJRU5ErkJggg==" y="282.0742"/><text fill="#111827" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="71" x="206" y="341.6758">Node Server</text><rect fill="#FFFFFF" height="82.1328" style="stroke:#6B7280;stroke-width:1.0;" width="91" x="317" y="272.0742"/><text fill="#111827" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="0" x="343" y="327.543"/><image height="48" width="40" x="343" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAwCAIAAADsGa/MAAABLUlEQVR4Xu2XsQrCQAyG+6odnMXBVRAcHTq4uQhObuLiKg7OCj6A4gvUJ6ihV46mudYk9CpCPn5E016+9lpqLyl+RNIsDEUlfjxf88UyHY2lmUxn19sd92RRiXVWF3DjniwqMW0nCu7JwsQQuNE46V+Md2hFMaROQKwI7snCxLrgnixMrAvuycLEuuCeLEysC+7JwsS64J4s/kS8Pxzz/E2De7IQiHUv7m0IxEW54KB1aaCJQOyWCzDVdFNHYJJO54sbm5aHDt+hEl0MKyO3ONpsd/6zVZyt1jQwxovpVn66xK4SBMRwBs2qhK6ppoeZ1c44ojgYf41NLKRLjHbExBXTR7F/IMcVBzPEVAdjYi1NMfz4miKGmMnPxDCGXgVpNGLA/ber49+fxOK++ABgJ88csQEzVwAAAABJRU5ErkJggg==" y="282.0742"/><text fill="#111827" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="71" x="327" y="341.6758">Node Server</text><rect fill="#FFFFFF" height="82.1328" style="stroke:#6B7280;stroke-width:1.0;" width="91" x="438" y="272.0742"/><text fill="#111827" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="0" x="464" y="327.543"/><image height="48" width="40" x="464" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAwCAIAAADsGa/MAAABLUlEQVR4Xu2XsQrCQAyG+6odnMXBVRAcHTq4uQhObuLiKg7OCj6A4gvUJ6ihV46mudYk9CpCPn5E016+9lpqLyl+RNIsDEUlfjxf88UyHY2lmUxn19sd92RRiXVWF3DjniwqMW0nCu7JwsQQuNE46V+Md2hFMaROQKwI7snCxLrgnixMrAvuycLEuuCeLEysC+7JwsS64J4s/kS8Pxzz/E2De7IQiHUv7m0IxEW54KB1aaCJQOyWCzDVdFNHYJJO54sbm5aHDt+hEl0MKyO3ONpsd/6zVZyt1jQwxovpVn66xK4SBMRwBs2qhK6ppoeZ1c44ojgYf41NLKRLjHbExBXTR7F/IMcVBzPEVAdjYi1NMfz4miKGmMnPxDCGXgVpNGLA/ber49+fxOK++ABgJ88csQEzVwAAAABJRU5ErkJggg==" y="282.0742"/><text fill="#111827" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="71" x="448" y="341.6758">Node Server</text><rect fill="#FFFFFF" height="82.1328" style="stroke:#6B7280;stroke-width:1.0;" width="91" x="559" y="272.0742"/><text fill="#111827" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="0" x="585" y="327.543"/><image height="48" width="40" x="585" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAwCAIAAADsGa/MAAABLUlEQVR4Xu2XsQrCQAyG+6odnMXBVRAcHTq4uQhObuLiKg7OCj6A4gvUJ6ihV46mudYk9CpCPn5E016+9lpqLyl+RNIsDEUlfjxf88UyHY2lmUxn19sd92RRiXVWF3DjniwqMW0nCu7JwsQQuNE46V+Md2hFMaROQKwI7snCxLrgnixMrAvuycLEuuCeLEysC+7JwsS64J4s/kS8Pxzz/E2De7IQiHUv7m0IxEW54KB1aaCJQOyWCzDVdFNHYJJO54sbm5aHDt+hEl0MKyO3ONpsd/6zVZyt1jQwxovpVn66xK4SBMRwBs2qhK6ppoeZ1c44ojgYf41NLKRLjHbExBXTR7F/IMcVBzPEVAdjYi1NMfz4miKGmMnPxDCGXgVpNGLA/ber49+fxOK++ABgJ88csQEzVwAAAABJRU5ErkJggg==" y="282.0742"/><text fill="#111827" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="71" x="569" y="341.6758">Node Server</text><!--MD5=[5ba664cf9b766e5c718e55b6ad1d358e]
+@startuml
+
+<style>
+nwdiagDiagram {
+  network {
+    BackGroundColor #E5E7EB
+    LineColor #6B7280
+    FontColor #1F2937
+  }
+  arrow {
+    FontColor #B91C1C
+    LineColor #6B7280
+  }
+  server {
+    BackGroundColor #ffffff
+    LineColor #6B7280
+    FontColor #111827
+  }
+  group {
+    BackGroundColor #DBEAFE
+    FontSize 14
+  }
+}
+</style>
+
+skinparam shadowing false
+skinparam defaultTextAlignment center
+
+!include <office/Servers/application_server>
+!include <office/Servers/reverse_proxy>
+
+nwdiag {
+
+  group {
+    description = "Docker"
+    haproxy
+    node1
+    node2
+    node3
+    node4
+    node5
+  }
+
+  network host {
+    description = "Host"
+    width = full
+    haproxy [description="  <$reverse_proxy>\nHAProxy" address = ":5080 proxy, :5081 stats"]
+  }
+
+  network backend {
+    description = "backend"
+    width = full
+    haproxy
+    node1 [description="    <$application_server>\nNode Server"]
+    node2 [description="    <$application_server>\nNode Server"]
+    node3 [description="    <$application_server>\nNode Server"]
+    node4 [description="    <$application_server>\nNode Server"]
+    node5 [description="    <$application_server>\nNode Server"]
+  }
+}
+@enduml
+
+@startuml
+
+<style>
+nwdiagDiagram {
+  network {
+    BackGroundColor #E5E7EB
+    LineColor #6B7280
+    FontColor #1F2937
+  }
+  arrow {
+    FontColor #B91C1C
+    LineColor #6B7280
+  }
+  server {
+    BackGroundColor #ffffff
+    LineColor #6B7280
+    FontColor #111827
+  }
+  group {
+    BackGroundColor #DBEAFE
+    FontSize 14
+  }
+}
+</style>
+
+skinparam shadowing false
+skinparam defaultTextAlignment center
+
+sprite $application_server [40x48/16] {
+0000000000000000000000000000000000000000
+0000000000000000000000000000000000000000
+0028AAAAAAAAAAAAAAAAA9300000000000000000
+008AAAAAAAAAAAAAAAAAAA900000000000000000
+00AAAAAAAAAAAAAAAAAAAAA00000000000000000
+00AAAAAAAAAAAAAAAAAAAAA00000000000000000
+00AAAAAAAAAAAAAAAAAAAAA00000000000000000
+00AAAA2222222222222AAAA00000000000000000
+00AAAA0000000000000AAAA00000000000000000
+00AAAAAAAAAAAAAAAAAAAAA00000000000000000
+00AAAAAAAAAAAAAAAAAAAAA00000000000000000
+00AAAAAAAAAAAAAAAAAAAAA00000000000000000
+00AAAAAAAAAAAAAAAAAAAAA00000000000000000
+00AAAAAAAAAAAAAAAAAAAAA00000000000000000
+00AAAAAAAAAAAAAAAAAAAAA00000000000000000
+00AAAAAAAAAAAAAAAAAAAAA00000000000000000
+00AAAAAAAAAAAAAAAAAAAAA00000000000000000
+00AAAAAAAAAAAAAAAAAAAAA00000000000000000
+00AAAAAAAAAAAAAAAAAAAAA00000000000000000
+00AAAAAAAAAAAAAAAAAAAAA00000000000000000
+00AAAAAAAAAAAAAAAAAAAAA00000000000000000
+00AAAAAAAAAAAAAAAAAAAAA00000000000000000
+00AAAAAAAAAAAAAAAAAAAAA00000000000000000
+00AAAAAAAAAAAAAAAAAAAAA00000000000000000
+00AAAAAAAAAAAAAAAAAAAAA00000000000000000
+00AAAAAAAAAAAAAAAAAAAAA00000000000000000
+00AAAAAAAAAAAAA5111111100000000000000000
+00AAAAAAAAAAAA30000000000000000000000000
+00AAAAAAAAAAAA02AAAAAAAAAAAAAAAAAAAAAA20
+00AAAAAAAAAAA905AAAAAAAAAAAAAAA3490A0940
+00AAAAAAAAAAA905AAAAAAAAAAAAAAA88A6A6A40
+00AAAA7777777605A77777777777777777777A40
+00AAAA0000000005800000000000000000000940
+00AAAA7777777605800000000000000000000940
+00AAAAAAAAAAA905800000000000000000000940
+00AAAAAAAAAAA905800000000000000000000940
+00AAAAAAAAAAA905800000000000000000000940
+00AAAA0000000005800000000000000000000940
+00AAAA1111111105800000000000000000000940
+00AAAAAAAAAAA905800000000000000000000940
+00AAAAAAAAAAA905800000000000000000000940
+00AAAAAAAAAAA905800000000000000000000940
+00AAAAAAAAAAA905800000000000000000000940
+0044444444444405800000000000000000000940
+0000000000000005800000000000000000000940
+0000000000000004AAAAAAAAAAAAAAAAAAAAAA40
+0000000000000000344444444444444444444300
+0000000000000000000000000000000000000000
+}
+
+sprite $reverse_proxy [38x48/16] {
+00000000000000000000000000000000000000
+00000000000000000000000000000000000000
+0007AAAAAAAAAAAAAAAAAA8100000000000000
+007AAAAAAAAAAAAAAAAAAAAA10000000000000
+00AAAAAAAAAAAAAAAAAAAAAA30000000000000
+00AAAAAAAAAAAAAAAAAAAAAA30000000000000
+00AAAAAAAAAAAAAAAAAAAAAA30000000000000
+00AAAAAAAAAAAAAAAAAAAAAA30000000000000
+00AAAA30000000000001AAAA30000000000000
+00AAAA52222222222223AAAA30000000000000
+00AAAAAAAAAAAAAAAAAAAAAA30000000000000
+00AAAAAAAAAAAAAAAAAAAAAA30000000000000
+00AAAAAAAAAAAAAAAAAAAAAA30000000000000
+00AAAAAAAAAAAAAAAAAAAAAA30000000000000
+00AAAAAAAAAAAAAAAAAAAAAA30000000000000
+00AAAAAAAAAAAAAAAAAAAAAA30000000000000
+00AAAAAAAAAAAAAAAAAAAAAA30000000000000
+00AAAAAAAAAAAAAAAAAAAAAA30000000000000
+00AAAAAAAAAAAAAAAAAAAAAA30000000000000
+00AAAAAAAAAAAAAAAAAAAAAA30000000000000
+00AAAAAAAAAAAAAAAAAAAAAA30000000000000
+00AAAAAAAAAAAAAAAAAAAAAA30000000000000
+00AAAAAAAAAAAAAAAAAA711100000000000000
+00AAAAAAAAAAAAAAAAA7000000000000000000
+00AAAAAAAAAAAAAAAA9006AA50000000000000
+00AAAAAAAAAAAAAAA8006AA500000000000000
+00AAAAAAAAAAAAAA9005AA6000000000000000
+00AAAAAAAAAAAAA9105AA50000000000000000
+00AAAAAAAAAAAA9104AAAAAAAAAAAAAA400000
+00AAAAAAAAAAAA7007AAAAAAAAAAAAAA400000
+00AAAAAAAAAAAAA6018AA75555555555200000
+00AAAAAAAAAAAAAA5009AA1000000000000000
+00AAAAAAAAAAAAAAA5019A9100000000000000
+00AAAA9888888888881019AA10007AA4000000
+00AAAA300000000000000111000006AA400000
+00AAAA6444444444443000000000007AA30000
+00AAAAAAAAAAAAAAAA80000000000008AA2000
+00AAAAAAAAAAAAAAAA803AAAAAAAAAAAAA9200
+00AAAAAAAAAAAAAAAA803AAAAAAAAAAAAAA300
+00AAAA52222222222220022222222238AA4000
+00AAAA3000000000000000000000005AA40000
+00AAAAAAAAAAAAAAAAAAAAAA300005AA500000
+00AAAAAAAAAAAAAAAAAAAAAA30005AA5000000
+00AAAAAAAAAAAAAAAAAAAAAA30000000000000
+00AAAAAAAAAAAAAAAAAAAAAA30000000000000
+00AAAAAAAAAAAAAAAAAAAAAA30000000000000
+00111111111111111111111100000000000000
+00000000000000000000000000000000000000
+}
+
+
+nwdiag {
+
+  group {
+    description = "Docker"
+    haproxy
+    node1
+    node2
+    node3
+    node4
+    node5
+  }
+
+  network host {
+    description = "Host"
+    width = full
+    haproxy [description="  <$reverse_proxy>\nHAProxy" address = ":5080 proxy, :5081 stats"]
+  }
+
+  network backend {
+    description = "backend"
+    width = full
+    haproxy
+    node1 [description="    <$application_server>\nNode Server"]
+    node2 [description="    <$application_server>\nNode Server"]
+    node3 [description="    <$application_server>\nNode Server"]
+    node4 [description="    <$application_server>\nNode Server"]
+    node5 [description="    <$application_server>\nNode Server"]
+  }
+}
+@enduml
+
+PlantUML version 1.2021.15(Tue Nov 30 17:45:34 CET 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: SE
+--></g></svg>

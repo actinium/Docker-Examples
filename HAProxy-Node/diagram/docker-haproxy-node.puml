@@ -1,0 +1,61 @@
+@startuml
+
+<style>
+nwdiagDiagram {
+  network {
+    BackGroundColor #E5E7EB
+    LineColor #6B7280
+    FontColor #1F2937
+  }
+  arrow {
+    FontColor #B91C1C
+    LineColor #6B7280
+  }
+  server {
+    BackGroundColor #ffffff
+    LineColor #6B7280
+    FontColor #111827
+  }
+  group {
+    BackGroundColor #DBEAFE
+    FontSize 14
+  }
+}
+</style>
+
+skinparam shadowing false
+skinparam defaultTextAlignment center
+
+!include <office/Servers/application_server>
+!include <office/Servers/reverse_proxy>
+
+nwdiag {
+
+  group {
+    description = "Docker"
+    haproxy
+    node1
+    node2
+    node3
+    node4
+    node5
+  }
+
+  network host {
+    description = "Host"
+    width = full
+    haproxy [description="  <$reverse_proxy>\nHAProxy" address = ":5080 proxy, :5081 stats"]
+  }
+
+  network backend {
+    description = "backend"
+    width = full
+    haproxy
+    node1 [description="    <$application_server>\nNode Server"]
+    node2 [description="    <$application_server>\nNode Server"]
+    node3 [description="    <$application_server>\nNode Server"]
+    node4 [description="    <$application_server>\nNode Server"]
+    node5 [description="    <$application_server>\nNode Server"]
+  }
+}
+@enduml
