@@ -16,7 +16,7 @@ services:
   ##############################################################################
   app-server-1:
     build: ./docker/node
-    hostname: app-1
+    hostname: app-server-1
     networks:
       - backend
 
@@ -25,7 +25,7 @@ services:
   ##############################################################################
   app-server-2:
     build: ./docker/node
-    hostname: app-2
+    hostname: app-server-2
     networks:
       - backend
 
@@ -34,7 +34,7 @@ services:
   ##############################################################################
   app-server-3:
     build: ./docker/node
-    hostname: app-3
+    hostname: app-server-3
     networks:
       - backend
 
