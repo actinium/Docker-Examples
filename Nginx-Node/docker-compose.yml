@@ -10,6 +10,10 @@ services:
       - 5080:80
     networks:
       - backend
+    depends_on:
+      - app-server-1
+      - app-server-2
+      - app-server-3
 
   ##############################################################################
   # Server 1
