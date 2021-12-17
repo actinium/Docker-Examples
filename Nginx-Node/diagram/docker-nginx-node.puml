@@ -42,7 +42,7 @@ nwdiag {
   network host {
     description = "Host"
     width = full
-    nginx [description=" <$reverse_proxy>\nNginx" address = ":5080"]
+    nginx [description="<$reverse_proxy>\nNginx" address = ":5080"]
   }
 
   network backend {
