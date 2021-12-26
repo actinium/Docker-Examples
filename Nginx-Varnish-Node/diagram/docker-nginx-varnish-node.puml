@@ -1,0 +1,56 @@
+@startuml
+
+<style>
+nwdiagDiagram {
+  network {
+    BackGroundColor #E5E7EB
+    LineColor #6B7280
+    FontColor #1F2937
+  }
+  arrow {
+    FontColor #B91C1C
+    LineColor #6B7280
+  }
+  server {
+    BackGroundColor #ffffff
+    LineColor #6B7280
+    FontColor #111827
+  }
+  group {
+    BackGroundColor #DBEAFE
+    FontSize 14
+  }
+}
+</style>
+
+skinparam shadowing false
+skinparam defaultTextAlignment center
+
+!include <office/Servers/application_server>
+!include <office/Servers/database_server>
+!include <office/Servers/reverse_proxy>
+
+nwdiag {
+
+  group {
+    description = "Docker"
+    nginx
+    varnish
+    node
+  }
+
+  network host {
+    description = "Host"
+    width = full
+    nginx [description="<$reverse_proxy>\nNginx" address = ":5080"]
+  }
+
+  network backend {
+    description = ""
+    width = full
+    nginx
+    varnish [description="      <$database_server>\nVarnish Cache"]
+    node [description="    <$application_server>\nNode Server"]
+  }
+}
+@enduml
