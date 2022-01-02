@@ -1,0 +1,68 @@
+@startuml
+
+<style>
+nwdiagDiagram {
+  network {
+    BackGroundColor #E5E7EB
+    LineColor #6B7280
+    FontColor #1F2937
+  }
+  arrow {
+    FontColor #B91C1C
+    LineColor #6B7280
+  }
+  server {
+    BackGroundColor #ffffff
+    LineColor #6B7280
+    FontColor #111827
+  }
+  group {
+    BackGroundColor #DBEAFE
+    FontSize 14
+  }
+}
+</style>
+
+skinparam shadowing false
+skinparam defaultTextAlignment center
+
+!include <office/Servers/application_server>
+!include <office/Servers/database_server>
+!include <office/Servers/reverse_proxy>
+
+nwdiag {
+
+  group {
+    description = "Docker"
+    nginx
+    python1
+    python2
+    python3
+    redis
+  }
+
+  network host {
+    description = "Host"
+    width = full
+    nginx [description="<$reverse_proxy>\nNginx" address = ":5080"]
+  }
+
+  network backend {
+    description = ""
+    width = full
+    nginx
+    python1 [description="     <$application_server>\nPython Server"]
+    python2 [description="     <$application_server>\nPython Server"]
+    python3 [description="     <$application_server>\nPython Server"]
+  }
+
+  network dbbackend {
+    description = ""
+    width = full
+    python1
+    python2
+    python3
+    redis [description="<$database_server>\nRedis"]
+  }
+}
+@enduml
