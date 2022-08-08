@@ -11,8 +11,8 @@ services:
     networks:
       - backend
     ports:
-      - "5080:80"
-      - "5081:81"
+      - "127.0.0.1:5080:80"
+      - "127.0.0.1:5081:81"
     depends_on:
       - node-server-1
       - node-server-2
