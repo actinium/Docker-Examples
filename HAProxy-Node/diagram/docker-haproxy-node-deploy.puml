@@ -1,0 +1,84 @@
+@startuml
+
+left to right direction
+
+skinparam nodesep 10
+skinparam ranksep 35
+
+skinparam shadowing false
+skinparam defaultTextAlignment center
+
+<style>
+frame {
+    BackGroundColor #DBEAFE
+    LineColor #ffffff00
+    FontSize 14
+    FontStyle normal
+}
+rectangle{
+    BackGroundColor #ffffff
+    LineColor #6B7280
+    FontColor #111827
+    FontSize 14
+    FontStyle normal
+}
+arrow {
+    LineColor: #6B7280
+}
+</style>
+
+!include <office/Servers/application_server>
+!include <office/Servers/database_server>
+!include <office/Servers/reverse_proxy>
+
+cloud " Host " as host
+
+frame "Docker" as docker {
+
+    frame "Load Balancer" as loadbalancer #c7d6ed {
+        rectangle haproxy [
+            <$reverse_proxy>
+            HAProxy
+        ]
+    }
+
+    frame "Web Servers" as webservers #c7d6ed {
+
+        rectangle node1 [
+            <$application_server>
+            Node Server
+        ]
+
+        rectangle node2 [
+            <$application_server>
+            Node Server
+        ]
+
+        rectangle node3 [
+            <$application_server>
+            Node Server
+        ]
+
+        rectangle node4 [
+            <$application_server>
+            Node Server
+        ]
+
+        rectangle node5 [
+            <$application_server>
+            Node Server
+        ]
+
+    }
+
+}
+
+host -- haproxy
+
+haproxy --- node1
+haproxy --- node2
+haproxy --- node3
+haproxy --- node4
+haproxy --- node5
+
+@enduml
