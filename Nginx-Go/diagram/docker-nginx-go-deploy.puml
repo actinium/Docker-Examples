@@ -1,0 +1,72 @@
+@startuml
+
+left to right direction
+
+skinparam nodesep 10
+skinparam ranksep 35
+
+skinparam shadowing false
+skinparam defaultTextAlignment center
+
+<style>
+frame {
+    BackGroundColor #DBEAFE
+    LineColor #ffffff00
+    FontSize 14
+    FontStyle normal
+}
+rectangle{
+    BackGroundColor #ffffff
+    LineColor #6B7280
+    FontColor #111827
+    FontSize 14
+    FontStyle normal
+}
+arrow {
+    LineColor: #6B7280
+}
+</style>
+
+!include <office/Servers/application_server>
+!include <office/Servers/database_server>
+!include <office/Servers/reverse_proxy>
+
+cloud " Host " as host
+
+frame "Docker" as docker {
+
+    frame "Load Balancer" as loadbalancer #c7d6ed {
+        rectangle nginx [
+            <$reverse_proxy>
+            Nginx
+        ]
+    }
+
+    frame "Web Servers" as webservers #c7d6ed {
+
+        rectangle go1 [
+            <$application_server>
+            Go Server
+        ]
+
+        rectangle go2 [
+            <$application_server>
+            Go Server
+        ]
+
+        rectangle go3 [
+            <$application_server>
+            Go Server
+        ]
+
+    }
+
+}
+
+host -- nginx
+
+nginx -- go1
+nginx -- go2
+nginx -- go3
+
+@enduml

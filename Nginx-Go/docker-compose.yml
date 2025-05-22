@@ -1,0 +1,44 @@
+services:
+  ##############################################################################
+  # Nginx
+  ##############################################################################
+  nginx:
+    build: ./docker/nginx
+    ports:
+      - 127.0.0.1:5080:80
+    networks:
+      - backend
+    depends_on:
+      - app-server-1
+      - app-server-2
+      - app-server-3
+
+  ##############################################################################
+  # App Servers
+  ##############################################################################
+  app-server-1:
+    build: ./docker/go
+    hostname: app-server-1
+    read_only: true
+    networks:
+      - backend
+
+  app-server-2:
+    build: ./docker/go
+    hostname: app-server-2
+    read_only: true
+    networks:
+      - backend
+
+  app-server-3:
+    build: ./docker/go
+    hostname: app-server-3
+    read_only: true
+    networks:
+      - backend
+
+################################################################################
+# Networks
+################################################################################
+networks:
+  backend: null
