@@ -1,0 +1,63 @@
+services:
+  ##############################################################################
+  # Nginx
+  ##############################################################################
+  nginx:
+    build: ./docker/nginx
+    ports:
+      - 5080:80
+    networks:
+      - backend
+    depends_on:
+      - app-server-1
+      - app-server-2
+
+  ##############################################################################
+  # App Servers
+  ##############################################################################
+  app-server-1:
+    build: ./docker/python
+    hostname: app-server-1
+    networks:
+      - backend
+      - db-backend
+    depends_on:
+      - memcached-1
+      - memcached-2
+      - memcached-3
+
+  app-server-2:
+    build: ./docker/python
+    hostname: app-server-2
+    networks:
+      - backend
+      - db-backend
+    depends_on:
+      - memcached-1
+      - memcached-2
+      - memcached-3
+
+  ##############################################################################
+  # Memcached
+  ##############################################################################
+  memcached-1:
+    build: ./docker/memcached
+    networks:
+      - db-backend
+
+  memcached-2:
+    build: ./docker/memcached
+    networks:
+      - db-backend
+
+  memcached-3:
+    build: ./docker/memcached
+    networks:
+      - db-backend
+
+################################################################################
+# Networks
+################################################################################
+networks:
+  backend: null
+  db-backend: null

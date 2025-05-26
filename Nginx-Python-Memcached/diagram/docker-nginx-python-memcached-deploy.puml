@@ -1,0 +1,90 @@
+@startuml
+
+left to right direction
+
+skinparam nodesep 10
+skinparam ranksep 35
+
+skinparam shadowing false
+skinparam defaultTextAlignment center
+
+<style>
+frame {
+    BackGroundColor #DBEAFE
+    LineColor #ffffff00
+    FontSize 14
+    FontStyle normal
+}
+rectangle{
+    BackGroundColor #ffffff
+    LineColor #6B7280
+    FontColor #111827
+    FontSize 14
+    FontStyle normal
+}
+arrow {
+    LineColor: #6B7280
+}
+</style>
+
+!include <office/Servers/application_server>
+!include <office/Servers/database_server>
+!include <office/Servers/reverse_proxy>
+
+cloud " Host " as host
+
+frame "Docker" as docker {
+
+    frame "Load Balancer" as loadbalancer #c7d6ed {
+        rectangle nginx [
+            <$reverse_proxy>
+            Nginx
+        ]
+    }
+
+    frame "Web Servers" as webservers #c7d6ed {
+
+        rectangle python1 [
+            <$application_server>
+            Python Server
+        ]
+
+        rectangle python2 [
+            <$application_server>
+            Python Server
+        ]
+
+    }
+
+    frame "Cache" as data #c7d6ed {
+        rectangle memcached1 [
+            <$database_server>
+            Memcached
+        ]
+
+        rectangle memcached2 [
+            <$database_server>
+            Memcached
+        ]
+
+        rectangle memcached3 [
+            <$database_server>
+            Memcached
+        ]
+    }
+
+}
+
+host -- nginx
+
+nginx -- python1
+nginx -- python2
+
+python1 --- memcached1
+python1 --- memcached2
+python1 --- memcached3
+python2 --- memcached1
+python2 --- memcached2
+python2 --- memcached3
+
+@enduml
