@@ -55,5 +55,5 @@ services:
 # Networks
 ################################################################################
 networks:
-  backend: null
-  db-backend: null
+  backend:
+  db-backend:
